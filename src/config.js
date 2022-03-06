@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "CryptoEyes";
 const description = "This Collection is created only for testing purposes";
-const baseUri = "ipfs://NewUriToReplace";
+const baseUri = "ipfs://QmV3cuDfLu7Eb7VJobmszF1nzMhwXnR2DaPKpMiHztHvfG";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 25,
+    growEditionSizeTo: 10,
     layersOrder: [
       { name: "Background" },
       { name: "Eyeball" },
